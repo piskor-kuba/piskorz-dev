@@ -2,6 +2,7 @@ import Arrow from "@/icons/Arrow.astro";
 import AstroFramework from "@/icons/astro.astro";
 import AWS from "@/icons/aws.astro";
 import Bitbucket from "@/icons/bitbucket.astro";
+import Bugzilla from "@/icons/bugzilla.astro";
 import CSS from "@/icons/css.astro";
 import Cypress from "@/icons/cypress.astro";
 import Docker from "@/icons/docker.astro";
@@ -34,6 +35,7 @@ export const ICONS: Record<string, any> = {
   AstroFramework,
   AWS,
   Bitbucket,
+  Bugzilla,
   CSS,
   Cypress,
   Docker,
