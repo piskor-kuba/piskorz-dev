@@ -12,6 +12,7 @@ import HTML from "@/icons/html.astro";
 import JavaScript from "@/icons/javascript.astro";
 import Jenkins from "@/icons/jenkins.astro";
 import Jest from "@/icons/jest.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
 import Mercurial from "@/icons/mercurial.astro";
 import Next from "@/icons/next.astro";
 import Node from "@/icons/node.astro";
@@ -43,6 +44,7 @@ export const ICONS: Record<string, any> = {
   JavaScript,
   Jenkins,
   Jest,
+  LinkedIn,
   Next,
   Node,
   NPM,
