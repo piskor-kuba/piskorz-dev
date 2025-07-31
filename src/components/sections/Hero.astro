@@ -2,21 +2,14 @@
 import { basics } from "@cv";
 import Section from "@/components/Section.astro";
 import Mail from "@/icons/mail.astro";
-import Phone from "@/icons/phone.astro";
-import X from "@/icons/x.astro";
-import LinkedIn from "@/icons/linkedin.astro";
-import GitHub from "@/icons/github.astro";
-import WorldMap from "@/icons/worldmap.astro";
-import type { SocialIcon } from "@/types";
+import Phone from "@/icons/Phone.astro";
+import WorldMap from "@/icons/WorldMap.astro";
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
 
-const SOCIAL_ICONS: SocialIcon = {
-	GitHub,
-	LinkedIn,
-	X,
-};
+import { ICONS } from "@/utils/icons";
+
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
 const linkedUrl = linkedInfo?.url;
@@ -68,7 +61,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 				}
 				{
 					profiles.map(({ network, url }) => {
-						const Icon = SOCIAL_ICONS[network];
+						const Icon = ICONS[network];
 
 						return (
 							<a href={url} title={`Visit ${name} profile on ${network}`} target="_blank" rel="noopener noreferrer">

@@ -2,7 +2,7 @@
 import Section from "../Section.astro"
 import { work } from "@cv"
 
-import { SKILLS_ICONS } from "@/utils/icons"
+import { ICONS } from "@/utils/icons"
 
 ---
 <Section className={Astro.props.className} title="Experience">
@@ -91,7 +91,7 @@ import { SKILLS_ICONS } from "@/utils/icons"
                 <ul class="flex print:hidden flex-wrap gap-2" aria-label="Technologies used">
                   {skills && skills.map(skill => {
                     const iconName = skill === "Next.js" ? "Next" : skill
-                    const Icon = SKILLS_ICONS[iconName]
+                    const Icon = ICONS[iconName]
                     return (
                       <li class="border-skin-hue/20 text-skin-hue print:p-0 print:bg-transparent print:text-zinc-800 flex gap-1 items-center border-solid print:border-none border rounded-md px-2 py-0.5 text-xs">
                         {Icon && <Icon />} <span>{skill}</span>
