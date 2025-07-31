@@ -1,0 +1,23 @@
+---
+import Section from "../Section.astro";
+import { skills } from "@cv";
+
+import { ICONS } from "@/utils/icons";
+
+---
+
+<Section className={Astro.props.className} title="Skills">
+	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
+		{
+			skills.map(({ name }) => {
+				const Icon = ICONS[name];
+
+				return (
+					<li class="border-skin-hue/20 bg-skin-button-accent/20 border border-solid flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
+						{Icon && <Icon />} <span>{name}</span>
+					</li>
+				);
+			})
+		}
+	</ul>
+</Section>

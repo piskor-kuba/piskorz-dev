@@ -1,0 +1,312 @@
+{
+  "basics": {
+    "name": "Jakub Piskorz",
+    "label": "Mid Frontend Developer",
+    "image": "/me_avatar.jpg",
+    "email": "kuba@piskorz.dev",
+    "phone": "+48 796 *** 293",
+    "url": "https://piskorz.dev",
+    "summary": "Detail-oriented Frontend Developer with hands-on experience in building and maintaining scalable web applications using React, TypeScript, and Tailwind CSS. Skilled in integrating RESTful APIs, implementing robust testing strategies (unit and E2E), and deploying Dockerized applications via CI/CD pipelines. Adept at working in Agile teams, contributing to architecture decisions, and producing clear, maintainable code. Focused on delivering efficient, userfriendly interfaces and continuously improving development workflows.",
+    "theme": "gradient",
+    "location": {
+      "address": "",
+      "postalCode": "04-382",
+      "city": "Warsaw",
+      "countryCode": "PL",
+      "region": "Poland"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "jakubpiskorz",
+        "url": "https://linkedin.com/in/jakubpiskorz/"
+      },
+      {
+        "network": "X",
+        "username": "Piskor_Kuba",
+        "url": "https://x.com/Piskor_Kuba"
+      },
+      {
+        "network": "GitHub",
+        "username": "piskor-kuba",
+        "url": "https://github.com/piskor-kuba"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Softax",
+      "position": "Frontend Developer",
+      "location_type": "On site",
+      "location": "Warsaw, Poland",
+      "url": "https://softax.pl",
+      "startDate": "2023-11-01",
+      "endDate": null,
+      "summary": "Developed user-facing features for a major banking platform using React, JavaScript, and Redux for scalable and maintainable state management. Integrated frontend with backend services, managing API communication and server-side logic. Built accessible UI components in compliance with WCAG guidelines, ensuring usability for all user groups. Collaborated within an Agile team using Jira and Bugzilla for project tracking, and Gerrit and Jenkins for code review and CI/CD automation.",
+      "responsibilities": [
+        "Developed user-facing features for a major banking platform using React, JavaScript, and Redux for scalable and maintainable state management.",
+        "Integrated frontend with backend services, managing API communication and server-side logic.",
+        "Built accessible UI components in compliance with WCAG guidelines,ensuring usability for all user groups.",
+        "Collaborated within an Agile team using Jira and Bugzilla for project tracking, and Gerrit and Jenkins for code review and CI/CD automation."
+      ],
+      "achievements": [],
+      "skills": [
+        "React",
+        "Python",
+        "JavaScript",
+        "Gerrit",
+        "Git",
+        "Mercurial",
+        "Jenkins",
+        "Bugzilla"
+      ]
+    },
+    {
+      "name": "Smartive.app",
+      "position": "Junior/Mid Frontend Developer",
+      "location_type": "Hybrid",
+      "location": "Kielce, Poland",
+      "url": "https://smartive.app",
+      "startDate": "2023-02-01",
+      "endDate": "2025-01-01",
+      "summary": "Built and optimized complex UI components using React, TypeScript, and Tailwind CSS within a parcel management platform. Integrated frontend with RESTful APIs and ensured application reliability through unit tests (Vitest/Jest) and end-to-end tests (Cypress). Maintained and automated CI/CD workflows using Bitbucket Pipelines and Jenkins; containerized and deployed builds via Docker on AWS. Contributed to frontend architecture decisions, created developer-facing technical documentation, and participated in code reviews within a Scrum team.",
+      "highlights": [
+        "Developed and optimized complex UI components using React, TypeScript, and Tailwind CSS",
+        "Integrated frontend with RESTful APIs and ensured application reliability through unit tests (Vitest/Jest) and end-to-end tests (Cypress)",
+        "Maintained and automated CI/CD workflows using Bitbucket Pipelines and Jenkins; containerized and deployed builds via Docker on AWS",
+        "Contributed to frontend architecture decisions, created developer-facing technical documentation, and participated in code reviews within a Scrum team"
+      ],
+      "responsibilities": [
+        "Developed and maintained backend services using Python and Django.",
+        "Worked closely with front-end developers to integrate user-facing elements with server-side logic.",
+        "Participated in daily stand-ups and bi-weekly sprint planning meetings to ensure alignment with project goals."
+      ],
+      "skills": [
+        "React",
+        "TypeScript",
+        "Tailwind",
+        "Vitest",
+        "Cypress",
+        "Git",
+        "Docker",
+        "Bitbucket",
+        "Jira",
+        "AWS"
+      ]
+    },
+    {
+      "name": "Samsung R&D Institute Poland",
+      "position": "Intern - QA Engineer",
+      "location_type": "On site",
+      "location": "Cracow, Poland",
+      "url": "https://samsungrd.pl",
+      "startDate": "2022-06-01",
+      "endDate": "2023-02-01",
+      "summary": "Create and maintain automated tests in Python/Robot Framework. Developing the internal PIAST framework.",
+      "highlights": [
+        "Developed and maintained automated test scripts for web applications using Python and Robot Framework",
+        "Contributed to the development of the internal PIAST framework, enhancing testing capabilities"
+      ],
+      "skills": ["Python", "RobotFramework", "Selenium", "GitLab", "Jenkins"]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Kielce University of Technology",
+      "url": "https://weaii.tu.kielce.pl",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2019-10-01",
+      "endDate": "2023-02-01",
+      "score": "5.0",
+      "courses": []
+    }
+  ],
+  "certificates": [],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend"]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend"]
+    },
+    {
+      "name": "Node",
+      "level": "Beginner",
+      "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Next",
+      "level": "Beginner",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Backend", "Scripting", "Automation"]
+    },
+    {
+      "name": "React",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript",
+        "TypeScript",
+        "UI",
+        "SPA"
+      ]
+    },
+    {
+      "name": "Vue",
+      "level": "Beginner",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Framework",
+        "Static Site Generation",
+        "UI"
+      ]
+    },
+    {
+      "name": "AstroFramework",
+      "level": "Beginner",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Framework",
+        "Static Site Generation",
+        "UI"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Styling",
+        "Utility-First CSS"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Styling",
+        "Utility-First CSS"
+      ]
+    },
+    {
+      "name": "Yarn",
+      "level": "Intermediate",
+      "keywords": ["Package Management", "Dependency Management"]
+    },
+    {
+      "name": "NPM",
+      "level": "Intermediate",
+      "keywords": ["Package Management", "Dependency Management"]
+    },
+    {
+      "name": "Cypress",
+      "level": "Intermediate",
+      "keywords": ["Testing", "Automation", "JavaScript"]
+    },
+    {
+      "name": "Vitest",
+      "level": "Intermediate",
+      "keywords": ["Testing", "Automation", "JavaScript"]
+    },
+    {
+      "name": "Jest",
+      "level": "Intermediate",
+      "keywords": ["Testing", "Automation", "JavaScript"]
+    },
+    {
+      "name": "Docker",
+      "level": "Intermediate",
+      "keywords": [
+        "DevOps",
+        "Containerization",
+        "Continuous Integration",
+        "Continuous Deployment"
+      ]
+    },
+    {
+      "name": "Jenkins",
+      "level": "Intermediate",
+      "keywords": [
+        "DevOps",
+        "Containerization",
+        "Continuous Integration",
+        "Continuous Deployment"
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "Intermediate",
+      "keywords": [
+        "DevOps",
+        "Containerization",
+        "Continuous Integration",
+        "Continuous Deployment"
+      ]
+    },
+    {
+      "name": "KISS | SOLID | DRY",
+      "level": "Intermediate",
+      "keywords": [
+        "Software Design Principles",
+        "Code Quality",
+        "Maintainability"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Polish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Technology",
+      "keywords": ["Web Development", "Open Source", "Software Engineering"]
+    },
+    {
+      "name": "Sports",
+      "keywords": ["Football", "Basketball", "Gym"]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "Personal Portfolio",
+      "isActive": true,
+      "description": "A personal portfolio website to showcase my projects and skills.",
+      "highlights": [
+        "Built with Astro and Tailwind CSS",
+        "Includes a blog and contact form"
+      ],
+      "url": "https://piskorz.dev",
+      "github": "https://github.com/piskor-kuba/piskorz-dev"
+    }
+  ]
+}
