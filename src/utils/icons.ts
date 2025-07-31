@@ -7,7 +7,7 @@ import Cypress from "@/icons/cypress.astro";
 import Docker from "@/icons/docker.astro";
 import Git from "@/icons/git.astro";
 import GitHub from "@/icons/GitHub.astro";
-import GitLab from "@/icons/GitLab.astro";
+import GitLab from "@/icons/Gitlab.astro";
 import HTML from "@/icons/html.astro";
 import JavaScript from "@/icons/javascript.astro";
 import Jenkins from "@/icons/jenkins.astro";
