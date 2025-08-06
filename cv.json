@@ -77,9 +77,11 @@
         "Contributed to frontend architecture decisions, created developer-facing technical documentation, and participated in code reviews within a Scrum team"
       ],
       "responsibilities": [
-        "Developed and maintained backend services using Python and Django.",
-        "Worked closely with front-end developers to integrate user-facing elements with server-side logic.",
-        "Participated in daily stand-ups and bi-weekly sprint planning meetings to ensure alignment with project goals."
+        "Developed and optimized complex UI components using React, TypeScript, and Tailwind CSS within a parcel management platform.",
+        "Integrated frontend with RESTful APIs and ensured application reliability through unit and end-to-end testing.",
+        "Maintained and automated CI/CD pipelines using Bitbucket Pipelines and Jenkins; handled containerization and deployment using Docker on AWS.",
+        "Contributed to frontend architecture design and created internal technical documentation for developers.",
+        "Participated in code reviews, daily stand-ups, and sprint planning meetings as part of a Scrum development team."
       ],
       "skills": [
         "React",
