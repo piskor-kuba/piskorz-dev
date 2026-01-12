@@ -1,37 +1,34 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-
-import About from "@/components/sections/About.astro";
-import Education from "@/components/sections/Education.astro";
-import Experience from "@/components/sections/Experience.astro";
-import Hero from "@/components/sections/Hero.astro";
-import Projects from "@/components/sections/Projects.astro";
-import Skills from "@/components/sections/Skills.astro";
-import Tail from "@/components/sections/Tail.astro";
-import KeyboardManager from "@/components/KeyboardManager.astro";
-import ThemeSwitch from "@/components/ThemeSwitch.astro";
-
-import { basics } from "@cv";
-const { name, label } = basics;
 ---
 
-<Layout title={`${name}`}>
-	<main class="relative grid max-w-7xl gap-12 p-8 max-sm:py-16 md:grid-cols-6 md:p-16 xl:gap-24 print:max-w-none print:grid-cols-1 print:gap-6">
-		<div class="space-y-6 md:col-span-2 print:col-span-1 print:grid print:grid-cols-2 print:gap-5 print:space-y-0">
-			<Hero />
-			<About />
-			<ThemeSwitch />
-		</div>
-		<div class="space-y-12 md:col-span-4 print:col-span-1 print:grid print:grid-cols-4 print:gap-2 print:space-y-0">
-			<Experience className="print:col-span-3" />
-			<Projects className="print:hidden" />
-			<Skills className="print:hidden" />
-			<Education className="order-first" />
-		</div>
-		<Tail />
-	</main>
+<Layout title="Jakub Piskorz – Work in progress">
+	<main class="flex min-h-[70vh] items-center justify-center p-8">
+		<div class="mx-auto w-full max-w-md rounded-2xl border border-border bg-background p-8 shadow-sm">
+			<div class="space-y-6 text-center">
+				<div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full border border-border">
+					<span class="text-sm font-mono text-muted-foreground">WIP</span>
+				</div>
 
-	<KeyboardManager />
+				<div class="space-y-2">
+					<h1 class="text-xl font-semibold tracking-tight">
+						Site under construction
+					</h1>
+					<p class="text-sm text-muted-foreground">
+						I’m currently rebuilding my blog & portfolio.
+						This page will soon showcase selected frontend work,
+						experiments, and writing.
+					</p>
+				</div>
+
+				<div class="pt-4">
+					<p class="text-xs text-muted-foreground">
+						Frontend Developer · React · Astro · TypeScript
+					</p>
+				</div>
+			</div>
+		</div>
+	</main>
 </Layout>
 
 <style>
